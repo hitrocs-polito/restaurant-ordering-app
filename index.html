@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Fontawesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Ordering</title>
+</head>
+<body>
+    <header>    
+        <h1>OQTEPA LAVASH</h1>
+        <h3>Delicious. Quickly.<br>Qualitatively.</h3>
+    </header>
+
+    <main>
+        <div class="menu-items" id="menu-items">
+            <!-- menu items here -->
+        </div>
+        
+        <section id="complete-order" class="complete-order">
+            
+        </section>
+        
+        <section id="card-details" class="card-details">
+            <p>Enter card details</p>
+            <input type="text" id="card-name" class="card-name" placeholder="Enter your name" required>
+            <input type="text" id="card-number" class="card-number" placeholder="Enter card number" required>
+            <input type="text" id="card-cvv" class="card-cvv" placeholder="Enter CVV" required>
+            <button id="pay-button">Pay</button>
+        </section>
+
+        <section class="note-el" id="note-el">
+            <h2 class="thank-note" id="thank-note">Thanks, Your order is on it's way</h2>
+        </section>
+    </main>
+
+    
+    <script src="index.js" type="module"></script>
+</body>
+</html>
